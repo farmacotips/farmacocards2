@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>FarmacoCards</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="top-menu">
+  <button id="btnBack" class="menu-btn hidden">←</button>
+  <button id="btnHome" class="menu-btn">Inicio</button>
+  <button id="btnMazos" class="menu-btn">Mazos</button>
+</nav>
+
+<!-- Home -->
+<div id="homeScreen" class="screen">
+  <h1 class="home-title">FARMACOCARDS</h1>
+  <p class="home-sub">por farmacotips</p>
+  <div class="home-menu">
+    <button id="btnCreate" class="home-btn">Crear mazo</button>
+    <button id="btnManage" class="home-btn">Administrar mazo</button>
+  </div>
+  <div id="nextDueContainer">Vuelve a estudiar en: <span id="nextDueCountdown">0</span></div>
+</div>
+
+<!-- Create -->
+<div id="createScreen" class="screen hidden">
+  <h2>Crear nuevo mazo</h2>
+  <form id="createForm" class="upload-form">
+    <input type="text" id="deckName" placeholder="Nombre del mazo" required>
+    <input type="file" name="csv" accept=".csv" required>
+    <button type="submit" class="btn-admin">Subir CSV</button>
+  </form>
+  <button id="backFromCreate" class="btn-light">Volver</button>
+</div>
+
+<!-- Manage -->
+<div id="manageScreen" class="screen hidden">
+  <h2>Administrar mazos</h2>
+  <ul id="decksList" class="decks-list"></ul>
+</div>
+
+<!-- Edit Deck -->
+<div id="editScreen" class="screen hidden">
+  <h2 id="editDeckTitle">Editar mazo</h2>
+  <div id="cardsPage"></div>
+  <div class="pagination">
+    <button id="prevPage" class="btn-admin">Anterior</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage" class="btn-admin">Siguiente</button>
+  </div>
+  <button id="backFromEdit" class="btn-light">Volver</button>
+</div>
+
+<!-- Study -->
+<div id="studyApp" class="screen hidden">
+  <header class="study-header">
+    <h1>FarmacoCards</h1>
+    <p>página de estudio de farmacotips</p>
+  </header>
+  <section class="today">
+    <svg class="progress-circle" width="120" height="120">
+      <circle cx="60" cy="60" r="54" stroke="#333" stroke-width="6" fill="none"/>
+      <circle id="progressCircle" cx="60" cy="60" r="54" stroke="#4fc3f7" stroke-width="6" fill="none"
+        stroke-dasharray="339.292" stroke-dashoffset="339.292" transform="rotate(-90 60 60)"/>
+      <text id="circleText" x="60" y="68" text-anchor="middle" font-size="32" fill="#4fc3f7" font-weight="bold">0</text>
+    </svg>
+    <div class="labels">
+      <span>Pendientes: <strong id="pendingCount">0</strong></span>
+      <span>Revisar otra vez: <strong id="reviewCount">0</strong></span>
+    </div>
+  </section>
+  <section class="deck">
+    <div class="deck-header">
+      <span class="deck-title">Cartas por estudiar (<span id="totalCount">0</span>)</span>
+      <div class="progress-bar"><div id="progressFill"></div></div>
+    </div>
+    <div id="flashcard" class="flashcard">
+      <div id="question">Pregunta</div>
+      <div id="answer" class="hidden">Respuesta</div>
+      <button id="editCard" class="btn-light edit-card-btn hidden">Editar</button>
+    </div>
+    <div class="buttons">
+      <button data-score="1" class="btn-diff btn-1">Difícil</button>
+      <button data-score="2" class="btn-diff btn-2">Complicado</button>
+      <button data-score="3" class="btn-diff btn-3">Medio</button>
+      <button data-score="4" class="btn-diff btn-4">Fácil</button>
+      <button data-score="5" class="btn-diff btn-5">Dominado</button>
+    </div>
+  </section>
+</div>
+
+<footer class="bottom-footer">
+  <a href="https://www.farmacotips.com" target="_blank">www.farmacotips.com</a>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
