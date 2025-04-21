@@ -254,9 +254,18 @@ function showCard() {
     return;
   }
   const c = due[0];
-  questionEl.innerText = c.question;
-  answerEl.innerText = c.answer;
-  answerEl.classList.add('hidden');
+  questionEl.innerHTML = `
+  <div class="card-label">PREGUNTA</div>
+  <div class="card-text">${c.question}</div>
+`;
+
+answerEl.innerHTML = `
+  <div class="card-label">RESPUESTA</div>
+  <div class="card-text hidden-answer">${c.answer}</div>
+`;
+
+answerEl.classList.add('hidden');
+
   updateButtons(c);
   editCardBtn.classList.remove('hidden');
   editCardBtn.onclick = () => {
@@ -270,9 +279,10 @@ function showCard() {
   };
 }
 
-flashcardEl.addEventListener('click', () => {
-  answerEl.classList.toggle('hidden');
+answerEl.addEventListener('click', () => {
+  answerEl.classList.add('show');
 });
+
 
 diffButtons.forEach(btn => {
   btn.onclick = () => {
