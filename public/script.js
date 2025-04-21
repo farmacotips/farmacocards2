@@ -279,9 +279,11 @@ answerEl.classList.add('hidden');
   };
 }
 
-answerEl.addEventListener('click', () => {
-  answerEl.classList.add('show');
+flashcardEl.addEventListener('click', () => {
+  const ansText = answerEl.querySelector('.card-text');
+  if (ansText) ansText.classList.toggle('hidden-answer');
 });
+
 
 
 diffButtons.forEach(btn => {

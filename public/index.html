@@ -43,7 +43,6 @@
   <ul id="publicDecksList" class="decks-list"></ul>
 </div>
 
-
 <!-- Edit Deck -->
 <div id="editScreen" class="screen hidden">
   <h2 id="editDeckTitle">Editar mazo</h2>
@@ -80,8 +79,14 @@
       <div class="progress-bar"><div id="progressFill"></div></div>
     </div>
     <div id="flashcard" class="flashcard">
-      <div id="question">Pregunta</div>
-      <div id="answer" class="hidden">Respuesta</div>
+      <div id="question">
+        <div class="card-label">PREGUNTA</div>
+        <div class="card-text">Pregunta</div>
+      </div>
+      <div id="answer" class="hidden">
+        <div class="card-label">RESPUESTA</div>
+        <div class="card-text hidden-answer">Respuesta</div>
+      </div>
       <button id="editCard" class="btn-light edit-card-btn hidden">Editar</button>
     </div>
     <div class="buttons">
@@ -91,7 +96,7 @@
       <button data-score="4" class="btn-diff btn-4">Fácil</button>
       <button data-score="5" class="btn-diff btn-5">Dominado</button>
     </div>
-  </section>
+  </section> <!-- << AQUÍ ESTABA FALTANDO -->
 </div>
 
 <footer class="bottom-footer">
