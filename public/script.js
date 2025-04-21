@@ -48,6 +48,28 @@ function show(screen) {
   }
 }
 btnHome.onclick = () => show(SCREENS.home);
+// start at home
+show(SCREENS.home);
+
+// Cargar mazos públicos al iniciar
+fetch('/mazos-publicos')
+  .then(res => res.json())
+  .then(publicDecks => {
+    const decksList = document.getElementById('decksList');
+
+    publicDecks.forEach(publicDeck => {
+      const li = document.createElement('li');
+      const span = document.createElement('span');
+      span.innerText = `[Público] ${publicDeck.name}`;
+      const btnEstudiar = document.createElement('button');
+      btnEstudiar.className = 'btn-study';
+      btnEstudiar.innerText = 'Estudiar';
+      btnEstudiar.onclick = () => loadStudy(publicDeck);
+      li.append(span, btnEstudiar);
+      decksList.appendChild(li);
+    });
+  });
+
 btnMazos.onclick = () => { renderDecks(); show(SCREENS.manage); };
 btnBack.onclick = () => show(prevScreen || SCREENS.home);
 btnCreate.onclick = () => show(SCREENS.create);
