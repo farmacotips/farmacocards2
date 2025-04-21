@@ -55,7 +55,7 @@ show(SCREENS.home);
 fetch('/mazos-publicos')
   .then(res => res.json())
   .then(publicDecks => {
-    const decksList = document.getElementById('decksList');
+    const publicList = document.getElementById('publicDecksList');
 
     publicDecks.forEach(publicDeck => {
       const li = document.createElement('li');
@@ -66,9 +66,10 @@ fetch('/mazos-publicos')
       btnEstudiar.innerText = 'Estudiar';
       btnEstudiar.onclick = () => loadStudy(publicDeck);
       li.append(span, btnEstudiar);
-      decksList.appendChild(li);
+      publicList.appendChild(li);
     });
   });
+
 
 btnMazos.onclick = () => { renderDecks(); show(SCREENS.manage); };
 btnBack.onclick = () => show(prevScreen || SCREENS.home);
