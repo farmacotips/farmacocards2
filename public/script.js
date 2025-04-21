@@ -280,8 +280,9 @@ answerEl.classList.add('hidden');
 }
 
 flashcardEl.addEventListener('click', () => {
+  answerEl.classList.remove('hidden');
   const ansText = answerEl.querySelector('.card-text');
-  if (ansText) ansText.classList.toggle('hidden-answer');
+  if (ansText) ansText.classList.remove('hidden-answer');
 });
 
 
