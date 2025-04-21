@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Dosis pediátricas frecuentes",
+    "cards": [
+      {
+        "question": "¿Dosis pediátrica de paracetamol oral (mg/kg/dosis)?",
+        "answer": "10–15 mg/kg/dosis cada 4–6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de ibuprofeno oral (mg/kg/dosis)?",
+        "answer": "5–10 mg/kg/dosis cada 6–8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de amoxicilina oral (mg/kg/día)?",
+        "answer": "50–90 mg/kg/día dividida cada 8–12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de azitromicina oral (mg/kg/día)?",
+        "answer": "10 mg/kg/día por 3 días"
+      },
+      {
+        "question": "¿Dosis pediátrica de cefalexina oral (mg/kg/día)?",
+        "answer": "25–50 mg/kg/día dividida cada 6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de salbutamol nebulizado (mg/dosis)?",
+        "answer": "1.25–2.5 mg cada 4–6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de prednisolona oral (mg/kg/día)?",
+        "answer": "1–2 mg/kg/día en 1–2 dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de metronidazol oral (mg/kg/día)?",
+        "answer": "30–50 mg/kg/día dividida cada 8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de loratadina oral (mg/día)?",
+        "answer": "5 mg una vez al día (>2 años)"
+      },
+      {
+        "question": "¿Dosis pediátrica de cetirizina oral (mg/día)?",
+        "answer": "2.5–5 mg una vez al día"
+      },
+      {
+        "question": "¿Dosis pediátrica de ranitidina oral (mg/kg/dosis)?",
+        "answer": "2–4 mg/kg/dosis cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de ondansetrón oral (mg/kg/dosis)?",
+        "answer": "0.15 mg/kg/dosis antes de quimioterapia"
+      },
+      {
+        "question": "¿Dosis pediátrica de albendazol oral (mg/kg/día)?",
+        "answer": "15 mg/kg/día por 5 días"
+      },
+      {
+        "question": "¿Dosis pediátrica de nitazoxanida oral (mg/kg/dosis)?",
+        "answer": "100 mg cada 12 h por 3 días"
+      },
+      {
+        "question": "¿Dosis pediátrica de eritromicina oral (mg/kg/día)?",
+        "answer": "30–50 mg/kg/día dividida cada 6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de claritromicina oral (mg/kg/día)?",
+        "answer": "15 mg/kg/día dividida cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de clindamicina oral (mg/kg/día)?",
+        "answer": "8–25 mg/kg/día dividida cada 8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de trimetoprim-sulfametoxazol oral (mg/kg/dosis)?",
+        "answer": "8–10 mg/kg/dosis cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de gentamicina IM/IV (mg/kg/día)?",
+        "answer": "5–7.5 mg/kg/día cada 8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de ampicilina IV (mg/kg/dosis)?",
+        "answer": "25–50 mg/kg/dosis cada 6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de diazepam oral (mg/kg/día)?",
+        "answer": "0.1–0.3 mg/kg/día dividida cada 8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de lorazepam IV (mg/kg/dosis)?",
+        "answer": "0.05–0.1 mg/kg/dosis cada 4–6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de fenitoína IV (mg/kg/dosis)?",
+        "answer": "15–20 mg/kg/dosis cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de hidrocortisona IV (mg/kg/dosis)?",
+        "answer": "1–2 mg/kg/dosis cada 6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de dexametasona IV/oral (mg/kg/día)?",
+        "answer": "0.15–0.3 mg/kg/día cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de omeprazol oral (mg/kg/día)?",
+        "answer": "0.7–3.3 mg/kg/dosis cada 8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de domperidona oral (mg/kg/dosis)?",
+        "answer": "3–6 mg/kg/día en 2 dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de hierro elemental oral (mg/kg/día)?",
+        "answer": "0.1–0.3 mg/día"
+      },
+      {
+        "question": "¿Dosis pediátrica de ácido fólico oral (mg/día)?",
+        "answer": "400–1000 UI/día"
+      },
+      {
+        "question": "¿Dosis pediátrica de vitamina D (UI/día)?",
+        "answer": "100,000–200,000 UI/dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de vitamina A (UI/dosis)?",
+        "answer": "15 mg/kg/dosis cada 6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de acetaminofén IV (mg/kg/dosis)?",
+        "answer": "0.5–1 mg/kg/dosis cada 6–8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de ketorolaco IV (mg/kg/dosis)?",
+        "answer": "0.05–0.1 mg/kg/dosis cada 4 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de morfina IV (mg/kg/dosis)?",
+        "answer": "1 mg/kg/dosis cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de furosemida IV (mg/kg/dosis)?",
+        "answer": "1–3 mg/kg/día dividida en 1–2 dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de spironolactona oral (mg/kg/día)?",
+        "answer": "0.08–0.6 mg/kg/día dividida cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de enalapril oral (mg/kg/día)?",
+        "answer": "2–4 mg/kg/día dividida cada 6–8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de propranolol oral (mg/kg/día)?",
+        "answer": "8–15 µg/kg/día cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de digoxina oral (µg/kg/día)?",
+        "answer": "1–2 puffs cada 4–6 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de salbutamol inhalador (puffs/dosis)?",
+        "answer": "0.25–0.5 mg cada 6–8 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de bromuro de ipratropio nebulizado (mg/dosis)?",
+        "answer": "0.25–0.5 mg cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de budesonida nebulizada (mg/dosis)?",
+        "answer": "50–100 µg cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de beclometasona inhalada (µg/dosis)?",
+        "answer": "0.1–0.2 UI/kg/dosis antes de comidas"
+      },
+      {
+        "question": "¿Dosis pediátrica de insulina rápida SC (UI/kg/dosis)?",
+        "answer": "0.2–0.5 UI/kg/día en 1–2 dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de insulina NPH SC (UI/kg/día)?",
+        "answer": "20–30 mg/kg/día dividida cada 12 h"
+      },
+      {
+        "question": "¿Dosis pediátrica de metformina oral (mg/kg/día)?",
+        "answer": "3–15 µg/kg/día en 1–2 dosis"
+      },
+      {
+        "question": "¿Dosis pediátrica de levotiroxina oral (µg/kg/día)?",
+        "answer": "3–6 mg/kg/día una vez al día"
+      },
+      {
+        "question": "¿Dosis pediátrica de fluconazol oral (mg/kg/día)?",
+        "answer": "100,000 UI vía oral cada 6 h"
+      }
+    ]
+  }
+]
