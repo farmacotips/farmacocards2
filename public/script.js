@@ -68,9 +68,15 @@ createForm.onsubmit = async e => {
   const fd = new FormData(e.target);
   await fetch('/upload',{method:'POST',body:fd});
   const cards = await (await fetch('/cards')).json();
-  const decks = getDecks();
-  decks.push({name, cards});
-  saveDecks(decks);
+
+// Guardar el mazo en localStorage como copia
+const decks = getDecks();
+const newDeck = { name, cards };
+decks.push(newDeck);
+saveDecks(decks);
+
+// También guardar en farmacoCards para que funcione el estudio sin perderlo
+localStorage.setItem('farmacoCards', JSON.stringify(cards));
   alert('Mazo creado');
   show(SCREENS.home);
 };
